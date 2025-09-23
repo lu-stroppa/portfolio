@@ -47,6 +47,4 @@ Email: stroppa.lucas@gmail.com
 
 LinkedIn: lucas-stroppa1210
 
-Portfólio Online: (link do GitHub Pages ou Vercel quando publicar)
-
 📌 Este portfólio será atualizado constantemente com novos projetos e melhorias.
