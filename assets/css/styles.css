@@ -2,31 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400&display=swap');
 
 :root, :root[data-theme='dark'] {
-  --primary-color: #F0F0F0;
+  --primary-color: #FFFFFF;
+  
+  --primary-bg-color: #121212;
+  --secondary-bg-color: #1E1E2A;
+  --primary-border-color: #2A2A37;
+  --secondary-border-color: #3C3C4A;
 
-  --primary-bg-color: #111217;
-  --secondary-bg-color: #28292E;
-  --primary-border-color: #28292E;
-	--secondary-border-color: #56575A;
-
-  --title-color: #F0F0F0;
-  --text-color: #9A9A9C;
-  --link-color: #9A9A9C;
-  --icon-color: #C7C8C9;
+  --title-color: #FFFFFF;
+  --text-color: #E0E0E0;
+  --link-color: #BB86FC;
+  --icon-color: #CCCCCC;
 }
 
 :root[data-theme='light'] {
   --primary-color: #0B0B0F;
 
-	--primary-bg-color: #E9E9E9;
-	--secondary-bg-color: #C7C8C9;
-	--primary-border-color: #C7C8C9;
-	--secondary-border-color: #9A9A9C;
+  --primary-bg-color: #FAFAFA;
+  --secondary-bg-color: #F0F0F5;
+  --primary-border-color: #D1D1D6;
+  --secondary-border-color: #B0B0B5;
 
-	--title-color: #0B0B0F;
-	--text-color: #28292E;
-	--link-color: #28292E;
-	--icon-color: #56575A;
+  --title-color: #0B0B0F;
+  --text-color: #1A1A1A;
+  --link-color: #6200EE;
+  --icon-color: #555555;
 }
 
 html[data-theme='light'] .brand__logo {
@@ -270,11 +270,11 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  max-height: 300px;
+  max-height: 350px;
   gap: 1.25rem;
   padding: 6.25rem 1rem 2rem;
   background: var(--secondary-bg-color);
-  margin-top: -5.5rem;
+  margin-top: -6.5rem;
 }
 
 .technologies h2 {
@@ -282,6 +282,7 @@ main {
   text-transform: none;
   letter-spacing: normal;
   text-align: start;
+  margin-top: -4rem;
 }
 
 .technologies__list {
@@ -295,15 +296,15 @@ main {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 4.8rem;
-  height: 4.8rem;
+  width: 4rem;
+  height: 4rem;
   aspect-ratio: 1/1;
   border: 1px solid var(--secondary-border-color);
   border-radius: 50rem;
 }
 
 .technologies__logo {
-  height: 2.4rem;
+  height: 2rem;
 }
 
 .projects {
@@ -651,12 +652,12 @@ footer p {
   }
 
   .technologies__item {
-    width: 6rem;
-    height: 6rem;
+    width: 4rem;
+    height: 4rem;
   }
   
   .technologies__logo {
-    height: 3rem;
+    height: 2rem;
   }
 
   p, span, li {
